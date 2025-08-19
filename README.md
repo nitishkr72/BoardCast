@@ -10,7 +10,7 @@ A **realtime collaborative Kanban board** built with:
 ## 📂 Monorepo Structure
 
 ```text
-kanban-realtime/
+riveto/
 │── backend/                      # Spring Boot microservices
 │   ├── auth-service/             # Authentication & users
 │   ├── team-service/             # Team management
