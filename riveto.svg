@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueprintGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+<!--Clean background-->
+  <rect x="40" y="35" width="140" height="130" fill="#0F172A"/>
+<!--Minimal R blueprint structure-->
+  <g stroke="url(#blueprintGradient)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+<!--Vertical line of R-->
+    <line x1="75" y1="65" x2="75" y2="135"/>
+<!--Top section-->
+    <path d="M 75 65 L 105 65 Q 120 65 120 80 Q 120 95 105 95 L 75 95"/>
+<!--Diagonal leg-->
+    <line x1="95" y1="95" x2="120" y2="135"/>
+  </g>
+<!--Blueprint corner marks-->
+  <g stroke="#60A5FA" stroke-width="2.0" opacity="0.5">
+    <path d="M 140 60 L 150 60 M 140 60 L 140 70"/>
+    <path d="M 60 140 L 70 140 M 60 140 L 60 130"/>
+  </g>
+</svg>
