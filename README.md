@@ -1,4 +1,4 @@
-# 📝 Riveto - Realtime Kanban Board (Monorepo)
+# 📝 Riveto - Collaborative Project Management Platform (Monorepo)
 
 A **realtime collaborative Kanban board** built with:  
 - **Backend:** Java Spring Boot (microservices, gRPC, WebSockets, SNS/SQS)  
