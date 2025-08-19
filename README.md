@@ -1,4 +1,4 @@
-# 📝 BoardCast - Realtime Kanban Board (Monorepo)
+# 📝 Riveto - Realtime Kanban Board (Monorepo)
 
 A **realtime collaborative Kanban board** built with:  
 - **Backend:** Java Spring Boot (microservices, gRPC, WebSockets, SNS/SQS)  
