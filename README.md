@@ -1,4 +1,7 @@
-# 📝 Riveto - Collaborative Project Management Platform (Monorepo)
+<div style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
+  <img src="./riveto.png" alt="Riveto Logo" width="90" height="98">
+  <h1 style="margin: 0;">Riveto - Collaborative Project Management Platform (Monorepo)</h1>
+</div>
 
 Connect. Build. Deliver.
 
